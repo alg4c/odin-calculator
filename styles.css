@@ -58,6 +58,9 @@ body {
 .operator {
   background-color: orange;
 }
+.equal {
+  background-color: orange;
+}
 
 .number {
   background-color: rgb(81, 81, 81);
