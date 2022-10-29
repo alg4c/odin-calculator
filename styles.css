@@ -65,6 +65,9 @@ body {
 .number {
   background-color: rgb(81, 81, 81);
 }
+.decimal {
+  background-color: rgb(81, 81, 81);
+}
 
 .zero {
   grid-column: span 2;
