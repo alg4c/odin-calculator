@@ -36,6 +36,9 @@ function handleNumber(number) {
     currNum += number;
     display.textContent = currNum;
   }
+  console.log(
+    `f=handleNumber prevNum: ${prevNum}, currNum: ${currNum}, operator: ${operator}`
+  );
 }
 
 function handleOperator(op) {
@@ -85,6 +88,7 @@ function calculate() {
 
 function displayResult() {
   operator = "";
+  currNum = "";
   display.textContent = prevNum;
 }
 
